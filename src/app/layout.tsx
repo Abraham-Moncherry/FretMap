@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "FretMap",
   description: "Guitar fretboard note visualizer",
+  icons: {
+    icon: "/stratocaster.png",
+  },
 };
 
 export default function RootLayout({
